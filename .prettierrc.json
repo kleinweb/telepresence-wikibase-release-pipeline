@@ -1,14 +1,7 @@
 {
-	"proseWrap": "never",
-	"trailingComma": "none",
-	"useTabs": true,
-	"plugins": [ "prettier-plugin-organize-imports" ],
-	"overrides": [
-		{
-			"files": [ "*.cjs", "*.js", "*.mjs", "*.ts" ],
-			"options": {
-				"singleQuote": true
-			}
-		}
-	]
+  "proseWrap": "preserve",
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": false
 }
